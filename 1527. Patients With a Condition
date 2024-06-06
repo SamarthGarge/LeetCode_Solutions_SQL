@@ -1,4 +1,4 @@
-SELECT patient_id, patient_name, conditions
+SELECT *
 FROM Patients
 WHERE conditions LIKE ('DIAB1%')
-OR conditionS LIKE ('%DIAB1%')
+OR conditionS LIKE ('% DIAB1%')
